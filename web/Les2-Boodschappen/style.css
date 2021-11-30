@@ -29,3 +29,13 @@ button{
     gap: 20px;
     padding: 10px;
 }
+
+/* class */
+
+.groen{
+    color: green;
+}
+
+.rood{
+    color: red;
+}
