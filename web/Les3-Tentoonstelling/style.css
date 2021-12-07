@@ -1,3 +1,6 @@
+body{
+    background-image: linear-gradient(to bottom right, darkorange, rgb(255, 153, 0), rgb(255, 196, 0), rgb(224, 183, 1));
+}
 
 #container{
     background-color: black;
