@@ -14,6 +14,14 @@
             <div id="myTitle">hier tietelle</div>
             <input type="text" id="myInput" autocapitalize="off">
             <input type="button" value="Voer in" onclick="getInput()">
+            <h3>Kies hier de richting die je op wilt</h3>
+            <nav>
+                <button id="knopNoord" onclick="GoDirection('noord')">Noord</button>
+                <button id="knopWest"  onclick="GoDirection('west')">West</button><button id="knopOost"  onclick="GoDirection('oost')">Oost</button>
+                <button id="knopZuid"  onclick="GoDirection('zuid')">Zuid</button>
+            </nav>
+            <img src="img/map_compass.png" alt="" id="map">
+
         </div>
     </div>
 
